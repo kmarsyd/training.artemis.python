@@ -46,6 +46,7 @@ RUN conda install --yes \
     nomkl \
     numpy==1.17.3 \
     pandas==0.25.2 \
+    xarray \
     tini==0.18.0 \
     && rm -rf /opt/conda/pkgs
 
